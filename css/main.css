@@ -47,7 +47,7 @@ body {
     position: relative;
     height: 10vw;
     max-width: 10em;
-    margin-bottom: 15em;
+    margin-bottom: 14.5em;
 }
 
 #thewink img{
@@ -161,9 +161,9 @@ button {
     color: #fff;
     cursor: pointer;
     font: inherit;
-    margin: 1em;
+    margin-top: 3em;
     outline: 1px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     transition: all .2s linear;
     display: block;
     margin-left: auto;
