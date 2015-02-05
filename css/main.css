@@ -28,6 +28,34 @@ body {
     background-color: #d00071;
 }
 
+.hamburger {
+    height:25px;
+    padding-top: 30px;
+    padding-left: 20px;
+    position: absolute;
+    width: 50px;
+    float: left;
+    margin-left: 20px;
+}
+
+#dropdown {
+    position: relative;
+    max-width: 10em;
+}
+
+#dropdown img{
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#dropdown img.top:hover {
+    opacity: 0;
+}
+
 .banner {
     background-color: #d00071;
     margin: 0 auto;
