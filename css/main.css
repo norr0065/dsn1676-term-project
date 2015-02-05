@@ -47,7 +47,7 @@ body {
     position: relative;
     height: 10vw;
     max-width: 10em;
-    margin-bottom: 16em;
+    margin-bottom: 15em;
 }
 
 #thewink img{
@@ -123,7 +123,6 @@ body {
 		-webkit-transform: translateY(0%);
 	}	
 }
-
 
 .header {
     padding: 10px;
