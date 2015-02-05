@@ -33,6 +33,12 @@ body {
     text-align: center;
 }
 
+.menchie {
+    width: 45%;
+    margin: auto;
+    position: relative;
+}
+
 .logo {
   width: 50%;
   position: relative;
