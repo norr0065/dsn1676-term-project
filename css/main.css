@@ -33,8 +33,17 @@ body {
     text-align: center;
 }
 
+.menchieslogos {
+    position: relative;
+    max-width: 40em;
+    margin:0 auto; 
+    height: 36vw;
+    max-height: 250px;
+    padding-top: 3em;
+}
+
 .menchie {
-    width: 45%;
+    width: 55%;
     margin: auto;
     position: relative;
 }
@@ -44,15 +53,21 @@ body {
   position: relative;
 }
 
+.header {
+    padding-top: 36em;
+}
+
 .title {
-  margin: 0;
-    padding: 0;
-    font-weight: 100;
-  position: relative;
+    margin: 0;
+    padding-top: 1em;
+    position: relative;
+    font-size: 7em;
 }
 
 .subheader {
-  padding-bottom: .5em;
-  position: relative;
-  margin-bottom: .5em; 
+    padding-top: .2em;
+    padding-bottom: 2em;
+    position: relative;
+    margin-bottom: .5em;
+    font-size: 5em;
 }
