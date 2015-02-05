@@ -14,7 +14,7 @@ html {
     text-size-adjust: 100%;
     background-color: #fff;
     font: normal 100%/1.5 sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #fff;
 }
 
@@ -127,6 +127,8 @@ body {
 .header {
     padding: 10px;
     margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
 }
 
 .title {
