@@ -5,7 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
     
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -19,12 +19,13 @@ html {
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
 	margin: 0;
 	padding: 0;
+    background-color: #d00071;
 }
 
 .banner {
@@ -44,18 +45,18 @@ body {
 
 #thewink {
     position: relative;
-    height: 30vw;
+    height: 10vw;
     max-width: 10em;
-    margin-bottom: 28em;
+    margin-bottom: 16em;
 }
 
 #thewink img{
     position:absolute;
     left:0;
-  -webkit-transition: opacity .5s ease-in-out;
-  -moz-transition: opacity .5s ease-in-out;
-  -o-transition: opacity .5s ease-in-out;
-  transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #thewink img.top:hover {
@@ -63,24 +64,24 @@ body {
 }
 
 .logo {
-  width: 60%;
-  position: relative;
-    max-width: 38em;
+    width: 60%;
+    position: relative;
+    max-width: 20em;
 }
 
 .header {
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 .title {
     margin: 0;
     position: relative;
-    font-size: 7em;
+    font-size: 2em;
 }
 
 .title:hover {
     color: #F28886;
-    font-size: 7em;
+    font-size: 2em;
 }
 
 .subheader {
@@ -88,5 +89,36 @@ body {
     padding-bottom: 2em;
     position: relative;
     margin-bottom: .5em;
-    font-size: 5em;
+    font-size: 1em;
+}
+
+button {
+    border: 0;
+    background: #AFBC24;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #8A713D;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    margin: 1em;
+    outline: 1px;
+    padding: 8px 20px;
+    transition: all .1s linear;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:active {
+    box-shadow: 0 3px 0 #006599;
+    transform: translateY(3px);
+}    
+
+.kiwi {
+    width: 60%;
+    position: relative;
+    max-width: 7em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
