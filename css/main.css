@@ -163,7 +163,7 @@ button {
     margin: 1em;
     outline: 1px;
     padding: 10px 20px;
-    transition: all .1s linear;
+    transition: all .2s linear;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -188,8 +188,8 @@ button:active {
 	animation-name: slideleft;
 	-webkit-animation-name: slideleft;	
 
-	animation-duration: 3s;	
-	-webkit-animation-duration: 3s;
+	animation-duration: 2.5s;	
+	-webkit-animation-duration: 2.5s;
 
 	animation-timing-function: ease-in-out;	
 	-webkit-animation-timing-function: ease-in-out;		
@@ -199,16 +199,16 @@ button:active {
 
 @keyframes slideleft {
 	0% {
-		transform: translateX(10%);
+		transform: translateX(100%);
 	}
 	50%{
 		transform: translateX(-18%);
 	}
 	65%{
-		transform: translateX(8%);
+		transform: translateX(10%);
 	}
 	80%{
-		transform: translateX(-8%);
+		transform: translateX(-10%);
 	}
 	95%{
 		transform: translateX(2%);
@@ -220,16 +220,16 @@ button:active {
 
 @-webkit-keyframes slideleft {
 	0% {
-		-webkit-transform: translateX(150%);
+		-webkit-transform: translateX(100%);
 	}
 	50%{
 		-webkit-transform: translateX(-18%);
 	}
 	65%{
-		-webkit-transform: translateX(8%);
+		-webkit-transform: translateX(10%);
 	}
 	80%{
-		-webkit-transform: translateX(-8%);
+		-webkit-transform: translateX(-10%);
 	}
 	95%{
 		-webkit-transform: translateX(2%);
