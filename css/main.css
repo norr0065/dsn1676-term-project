@@ -39,7 +39,7 @@ body {
 }
 
 #dropdown {
-    position: relative;
+    position: absolute;
     max-width: 10em;
 }
 
