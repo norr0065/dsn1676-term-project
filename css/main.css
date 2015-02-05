@@ -10,7 +10,12 @@ html {
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-     text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    background-color: #fff;
+    font: normal 100%/1.5 sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
 }
 
 *, *:before, *:after {
@@ -20,6 +25,12 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+}
+
+.banner {
+    background-color: #d00071;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .logo {
