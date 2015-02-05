@@ -16,3 +16,24 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+  width: 50%;
+  position: relative;
+}
+
+.title {
+  margin: 0;
+  position: relative;
+}
+
+.subheader {
+  padding-bottom: .5em;
+  position: relative;
+  margin-bottom: .5em; 
+}
