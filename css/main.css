@@ -56,6 +56,28 @@ body {
     opacity: 0;
 }
 
+.navagation-dropdown {
+    height: 0;
+    transition: height 1s ease;
+    overflow: hidden;
+    background-color: #d00071; 
+}
+
+.navagation-dropdown:hover {
+    font-weight: 500;
+    color: #d00071; 
+    cursor: pointer;
+    -webkit-transition: 1s;
+    transition: 1s; 
+}
+
+.nav-list {
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
 .banner {
     background-color: #d00071;
     margin: 0 auto;
