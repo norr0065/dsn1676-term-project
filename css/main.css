@@ -28,6 +28,18 @@ body {
     background-color: #d00071;
 }
 
+.nav {
+  overflow: hidden;
+  background-color: #d00071;
+  height: 7em;
+}
+
+.banner {
+    background-color: #d00071;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .hamburger {
     height:25px;
     padding-top: 30px;
@@ -56,6 +68,21 @@ body {
     opacity: 0;
 }
 
+.nav-list {
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.nav-btn {
+  position: absolute;
+  height: 2em;
+  right: 2em;
+  top: 2.5em;
+  cursor: pointer;
+}
+
 .navagation-dropdown {
     height: 0;
     transition: height 1s ease;
@@ -65,23 +92,16 @@ body {
 
 .navagation-dropdown:hover {
     font-weight: 500;
-    color: #d00071; 
+    color: #AFBC24; 
     cursor: pointer;
     -webkit-transition: 1s;
     transition: 1s; 
 }
 
-.nav-list {
-    list-style-type: none;
-    text-align: center;
-    color: white;
-    overflow: hidden;
-}
-
-.banner {
-    background-color: #d00071;
-    margin: 0 auto;
-    text-align: center;
+.js-nav-open {
+  height: 8em;
+  display: block;
+  background-color: #AFBC24;
 }
 
 .menchieslogos {
