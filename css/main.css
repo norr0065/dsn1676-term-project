@@ -132,30 +132,24 @@ body {
     margin-bottom: 0;
 }
 
-.tabs:hover{
-    padding: 10px;
-    display: inline-block;
-    color: #AFBC24;
-    text-decoration: none;
-}
-
 .tabs li {
   display: inline-block;
   color: white;
 }
 
-.js-current {
-  display: inline-block;
-  color: white; 
+.tabs a {
   padding: 20px;
+  display: inline-block;
   text-decoration: none;
+  color: white; 
+}
+
+.tabs a.js-current {
+  color: #AFBC24; 
 }
 
 .js-current:hover {
-  display: inline-block;
-  color: #AFBC24; 
-  padding: 20px;
-  text-decoration: none;   
+  color: #AFBC24;  
 }
 
 .tab-panels { 
@@ -215,7 +209,7 @@ body {
   position: absolute;
   top: 60%;
   left: 50%;
-  width: calc(50%);
+  width: calc(40%);
   transform: translate(-50%, -50%);
 }
 
