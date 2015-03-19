@@ -125,14 +125,15 @@ body {
 }
 
 .tabs {
-    padding: 20px;
+    padding: 10px;
     display: inline-block;
     color: white;
     text-decoration: none;
+    margin-bottom: 0;
 }
 
 .tabs:hover{
-    padding: 20px;
+    padding: 10px;
     display: inline-block;
     color: #AFBC24;
     text-decoration: none;
@@ -218,6 +219,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.lightbox-desc {
+    margin:0;
+}
+
 .slidedown{
 	animation-name: slidedown;
 	-webkit-animation-name: slidedown;	
@@ -297,6 +302,15 @@ p {
     margin: 1em;
 }
 
+h2 {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+}
+    
+
 button {
     border: 0;
     background: #AFBC24;
@@ -322,7 +336,6 @@ button:active {
 .kiwi {
     width: 55%;
     position: relative;
-    padding-top: 8px;
     max-width: 5em;
     display: block;
     margin-left: auto;
