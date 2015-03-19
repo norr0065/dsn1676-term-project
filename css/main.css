@@ -165,9 +165,9 @@ body {
 .lightbox-container {
   position: absolute;
   left: 100px;
-  right: 10px;
-  bottom: 40px;
-  top: 40px;
+  right: 100px;
+  bottom: 30px;
+  top: 30px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 1px 1px 4px #000;
@@ -180,7 +180,7 @@ body {
 
 .lightbox-content {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   width: calc(50%);
   transform: translate(-50%, -50%);
@@ -272,7 +272,7 @@ button {
     color: #fff;
     cursor: pointer;
     font: inherit;
-    margin-top: 2.5em;
+    margin: 4em;
     outline: 1px;
     padding: 10px 30px;
     transition: all .2s linear;
@@ -287,10 +287,10 @@ button:active {
 }    
 
 .kiwi {
-    width: 60%;
+    width: 55%;
     position: relative;
-    padding-top: 10px;
-    max-width: 7em;
+    padding-top: 8px;
+    max-width: 5em;
     display: block;
     margin-left: auto;
     margin-right: auto;
