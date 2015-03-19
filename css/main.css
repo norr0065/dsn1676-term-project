@@ -223,7 +223,7 @@ body {
     margin:0;
 }
 
-.slidedown{
+.slidedown {
 	animation-name: slidedown;
 	-webkit-animation-name: slidedown;	
 
@@ -235,7 +235,6 @@ body {
 
 	visibility: visible !important;						
 }
-
 
 @keyframes slidedown {
 	0% {
@@ -310,7 +309,6 @@ h2 {
     font-size: 2em;
 }
     
-
 button {
     border: 0;
     background: #AFBC24;
@@ -354,7 +352,6 @@ button:active {
 
 	visibility: visible !important;	
 }
-
 
 @keyframes slideleft {
 	0% {
