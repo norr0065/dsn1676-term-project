@@ -45,7 +45,7 @@ body {
     text-align: center;
     color: white;
     overflow: hidden;
-    padding: 1em;
+    padding: em;
     letter-spacing: 1px;
     line-height: 200%;
 }
@@ -132,6 +132,20 @@ body {
 
 	visibility: visible !important;						
 }
+
+[hidden] {
+    display:none;
+}
+
+.tabs li {
+    display: inline-block;
+}
+
+.js-current {
+    background-color: red;
+}
+
+
 
 @keyframes slidedown {
 	0% {
