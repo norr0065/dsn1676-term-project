@@ -124,16 +124,33 @@ body {
   display: none;
 }
 
+.tabs {
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
 .tabs li {
   display: inline-block;
+  color: white;
 }
 
 .js-current {
-  background-color: red;
+  display: inline-block;
+  color: white; 
+  padding: 10px;
+    text-decoration: none;
 }
 
+.js-current:hover {
+  display: inline-block;
+  color: #AFBC24; 
+  padding: 10px;
+    text-decoration: none;
+}
 .thumbnails {
-  margin: 0;
+  margin-bottom: 10em;
   padding: 0;
 }
 
@@ -185,6 +202,7 @@ body {
   width: calc(50%);
   transform: translate(-50%, -50%);
 }
+
 .slidedown{
 	animation-name: slidedown;
 	-webkit-animation-name: slidedown;	
@@ -282,7 +300,7 @@ button {
 }
 
 button:active {
-    box-shadow: 0 3px 0 #006599;
+    box-shadow: 0 3px 0 ;
     transform: translateY(3px);
 }    
 
@@ -308,6 +326,7 @@ button:active {
 
 	visibility: visible !important;	
 }
+
 
 @keyframes slideleft {
 	0% {
@@ -349,4 +368,18 @@ button:active {
 	100% {
 		-webkit-transform: translateX(0%);
 	}
+}
+
+.wrapper {
+    min-height:50%;
+	position:relative;
+}
+
+.footer {
+	width:10f0%;
+	height:60px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:#d00071;    
 }
