@@ -147,30 +147,29 @@ body {
 
 .lightbox {
   position: fixed;
-  left: 100%;
-  right: -100%;
+  left: 0;
+  right: 0;
   top: 0;
-  bottom: 0;
+  bottom: 100%;
   background-color: rgba(0,0,0,0.5);
-  display:none;
-  opacity: 50%;
+  opacity: 0;
   transition: all 200ms ease-out;
 }
 
 .lightbox[data-state="visible"] {
+  display: block;
   opacity: 1;
-  left: 0;
-  right: 0;
+  bottom: 0;
 }
 
 .lightbox-container {
   position: absolute;
-  left: 15px;
-  right: 15px;
-  bottom: 15px;
-  top: 15px;
+  left: 100px;
+  right: 10px;
+  bottom: 40px;
+  top: 40px;
   background-color: #fff;
-  border-radius: 6px;
+  border-radius: 10px;
   box-shadow: 1px 1px 4px #000;
 }
 
@@ -183,7 +182,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: calc(100% - 2em);
+  width: calc(50%);
   transform: translate(-50%, -50%);
 }
 .slidedown{
