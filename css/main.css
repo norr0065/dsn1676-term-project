@@ -125,9 +125,16 @@ body {
 }
 
 .tabs {
-    padding: 10px;
+    padding: 20px;
     display: inline-block;
     color: white;
+    text-decoration: none;
+}
+
+.tabs:hover{
+    padding: 20px;
+    display: inline-block;
+    color: #AFBC24;
     text-decoration: none;
 }
 
@@ -139,16 +146,24 @@ body {
 .js-current {
   display: inline-block;
   color: white; 
-  padding: 10px;
-    text-decoration: none;
+  padding: 20px;
+  text-decoration: none;
 }
 
 .js-current:hover {
   display: inline-block;
   color: #AFBC24; 
-  padding: 10px;
-    text-decoration: none;
+  padding: 20px;
+  text-decoration: none;   
 }
+
+.tab-panels { 
+    background-color: #d00071;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+
 .thumbnails {
   margin-bottom: 10em;
   padding: 0;
