@@ -24,8 +24,13 @@ html {
 
 body {
 	margin: 0;
-	padding: 0;
+    height: 100%;
     background-color: #d00071;
+}
+
+.container {
+    min-height:100%;
+    position:relative;
 }
 
 .nav {
@@ -38,6 +43,7 @@ body {
     background-color: #d00071;
     margin: 0 auto;
     text-align: center;
+    padding: 10px;
 }
 
 .nav-list {
@@ -161,8 +167,8 @@ body {
     background-color: #d00071;
     margin: 0 auto;
     text-align: center; 
+    padding: 20px;
 }
-
 
 .thumbnails {
   margin-bottom: 10em;
@@ -278,7 +284,7 @@ body {
 }
 
 .header {
-    padding: 0;
+    padding: 10px;
     margin: 0 auto;
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
@@ -394,25 +400,19 @@ button:active {
 	}
 }
 
-.wrapper {
-    min-height:50%;
-	position:relative;
-}
-
 .footer {
-	width:10f0%;
-	height:60px;
-	position:absolute;
+    position: relative;
+	width:100%;
+	height:80px;
 	bottom:0;
 	left:0;
-	background:#d00071;    
-    
+	background:#d00071;  
 }
 
 .footerlogo{
   width: 10em;
   max-height: 5em;
-  padding: 1em;
+  padding: 1em;    
 
 }
 

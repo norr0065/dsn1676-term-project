@@ -8,12 +8,15 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href="css/type.css" rel="stylesheet">
   	<link href="css/main.css" rel="stylesheet">
-</head>
-<body>
-	<header class="nav">   
-                <img src="images/hamburger.svg" alt="nav" class="nav-btn">   
+
+<div id="header">
+	<header  id="nav" class="nav">   
+                <img src="images/hamburger.svg" alt="nav" id="backtotop" class="nav-btn">   
     </header>
-               
+</div>
+</head>
+    
+<body>
     <div class="navagation-dropdown">
                 <ul class="nav-list">
                     <li class="first-list giga p2"><a href="#about-jump">About</a></li>
@@ -32,7 +35,9 @@
     </div>
             
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+  
             <img class="logo" src="images/logo.png" alt="">
+
     </div>
                 
     <div class="header">        
@@ -168,23 +173,25 @@ Grab a cup, enjoy the sweet ride!</p>
 </main>    
     
 <footer class="footer">
-  <div class="grid wrapper">
-    <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-      <a href="index.html">
+        <div class="grid">
+            <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
           <img src="images/logo.png" alt="logo" class="footerlogo pad-t">
-      </a>
-    </div>
-    <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-      <a href="#footer" class="backtotop">
+            </div>
+      
+        <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+            <a href="#nav" class="backtotop">
       <img class="footerskip" src="images/backtotopbtn.svg"></img>
       </a>
-    </div>
-</footer>    
+        </div>
+        </div>
+</footer>
+
+
     
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
     <script src="js/main.js"></script>
     
-</body>
+</body>   
 </html>
