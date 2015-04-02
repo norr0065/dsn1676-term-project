@@ -406,4 +406,33 @@ button:active {
 	bottom:0;
 	left:0;
 	background:#d00071;    
+    
+}
+
+.footerlogo{
+  width: 10em;
+  max-height: 5em;
+  padding: 1em;
+
+}
+
+.footerlogo:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.footerskip {
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+  width:3em;
+  float: right;
+  padding-right: 1em;
+}
+
+.footerskip:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
