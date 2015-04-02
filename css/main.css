@@ -77,6 +77,11 @@ body {
   background-color: #AFBC24;
 }
 
+.first-list a {
+  color: white;
+  text-decoration: none;   
+}
+
 .first-list:hover {
     font-weight: 500;
     color: #efe3d3; 
@@ -209,7 +214,7 @@ body {
   position: absolute;
   top: 60%;
   left: 50%;
-  width: calc(40%);
+  width: calc(50%);
   transform: translate(-50%, -50%);
 }
 

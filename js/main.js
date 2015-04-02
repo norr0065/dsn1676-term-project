@@ -35,3 +35,12 @@ var big = $(this).attr('href');
 $btnClose.on('click', function () {
     $lb.attr('data-state','hidden');
 });
+
+
+var $navList = $('.nav-list');
+var $footer = $('.footer');
+var $tabs = $('.tabs');
+
+$navList. localScroll();
+$footer. localScroll();
+$tabs. localScroll();
