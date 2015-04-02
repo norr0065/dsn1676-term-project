@@ -136,7 +136,7 @@ body {
 }
 
 .tabs {
-    padding: 10px;
+    padding: 20px;
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -284,7 +284,7 @@ body {
 }
 
 .header {
-    padding: 10px;
+    padding-bottom: 40px;
     margin: 0 auto;
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
@@ -314,7 +314,28 @@ h2 {
     font-size: 2em;
 }
     
-button {
+.upbtn {
+    position: relative;
+    max-width: 2em;
+    margin:0 auto; 
+    padding-top: .5em;
+}
+    
+}
+.scroll {
+  position: absolute;
+  width: 40px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+.scroll:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.button {
     border: 0;
     background: #AFBC24;
     border-radius: 5px;
