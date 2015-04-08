@@ -378,6 +378,18 @@ button:active {
 
 	visibility: visible !important;	
 }
+.dog {
+    text-align: center;
+}
+
+#hands{
+    transform: translateY(0);
+    transition: all 100ms ease;    
+}
+
+#dog:hover #hands {
+    transform: translateY(-30px);
+}
 
 @keyframes slideleft {
 	0% {
