@@ -44,3 +44,9 @@ var $tabs = $('.tabs');
 $navList. localScroll();
 $footer. localScroll();
 $tabs. localScroll();
+
+var $dogSection = $('.dog');
+
+$dogSection.waypoint(function () {
+    $dogSection.toggleClass('js-active')
+}, {offset: '90%' });
