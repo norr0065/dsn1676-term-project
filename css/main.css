@@ -52,8 +52,8 @@ body {
     list-style-type: none; 
 }
 
-a:active {
-    outline: none;
+a:active,a:focus {
+border: none;
 }
 
 .skip-links a {
