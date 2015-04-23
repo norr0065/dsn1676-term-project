@@ -28,7 +28,6 @@ body {
     background-color: #d00071;
 }
 
-
 .nav {
   overflow: hidden;
   background-color: #d00071;
@@ -63,17 +62,9 @@ body {
     outline:none;
 }
 
-a:hover,
-a:active {
-    /* Its okay to remove the focus rectangle for mouse users
-        ITS NOT OLAY TO REMOVE FOR KEYBOARD USERS
-    */
-    outline: none;
-}
-
-a:focus {
-    outline: none;
-}
+a {color:#d00071} 
+a:hover {color: #ff0000; text-decoration:none} 
+a:focus, a:active {color: #fff; background-color:#d00071}
 
 .nav-list {
     list-style-type: none;
@@ -199,6 +190,23 @@ a:focus {
     padding: 20px;
 }
 
+.btn-close{
+     border: 0;
+    background: #AFBC24;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #8A713D;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    margin: 4em;
+    outline: 1px;
+    padding: 10px 30px;
+    transition: all .2s linear;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
 .thumbnails {
   margin-bottom: 10em;
   padding: 0;
@@ -345,14 +353,13 @@ h2 {
     
 .upbtn {
     position: relative;
-    max-width: 2em;
+    max-width: 1em;
     margin:0 auto; 
     padding-top: .5em;
 }
     
-}
 .scroll {
-  position: absolute;
+  position: relative;
   width: 40px;
   padding-bottom: 40px;
   margin: 0 auto;
