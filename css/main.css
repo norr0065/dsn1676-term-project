@@ -28,10 +28,6 @@ body {
     background-color: #d00071;
 }
 
-.container {
-    min-height:100%;
-    position:relative;
-}
 
 .nav {
   overflow: hidden;
@@ -64,6 +60,7 @@ body {
 
 .skip-links a:focus {
     top: 0;
+    outline:none;
 }
 
 a:hover,
