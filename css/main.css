@@ -59,7 +59,6 @@ body {
 
 .skip-links a:focus {
     top: 0;
-    outline:none;
 }
 
 a {color:#d00071} 
@@ -349,6 +348,15 @@ h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
     font-size: 2em;
+}
+
+h3 {
+    padding: 1em;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #AFBC24;
+    font-size: 1.5em;
 }
     
 .upbtn {
